@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+ipykernel = "*"
+numpy = "*"
+scipy = "*"
+sympy = "*"
+matplotlib = "*"
+
+[requires]
+python_version = "3.6"
